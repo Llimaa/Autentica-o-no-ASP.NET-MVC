@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@if (TempData["resposta"] != null)
+{
+    <DIV class="alert alert".SUCCESS>
+        @TempData["RESPOSTA"]
+    </DIV> 
+}
+

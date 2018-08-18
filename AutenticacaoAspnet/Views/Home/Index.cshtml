@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@{
+    if (TempData["resposta"] != null)
+    {
+        <div class="alert alert-info">
+            <h3>@TempData["resposta"]</h3>
+        </div>
+    }
+    else
+    {
+        <div class="jumbotron">
+            <h3>Bem vindo, Cadastre-se</h3>
+        </div>
+    }
+
+}
+
+
